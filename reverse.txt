@@ -1,0 +1,13 @@
+package reverse;
+
+public class reverse_number {
+	public static void main(String[] args) {
+	      int num=835,u,m,f,rev;
+	          u=(num%10)*100;
+	          m=((num%100)/10)*10;
+	          f=(num/100);
+            rev=u+m+f;
+          System.out.print("reverse of number is:"+rev);
+	}
+
+    }

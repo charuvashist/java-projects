@@ -1,0 +1,25 @@
+package biggest_number;
+
+public class biggest_number
+{
+   public static void main(String[] args) 
+   {
+	int a=10,b=20;
+	float c=25.5f;
+	if(a>b && a>c) 
+	{
+	  System.out.print(a);	
+	  System.out.print(" is a biggest number");
+	}
+	else if(b>a && b>c)
+	{
+      System.out.print(b);
+      System.out.print(" is a biggest number");
+	}
+	else
+	{
+      System.out.print(c);
+      System.out.print(" is the biggest number");
+	}
+   }
+}

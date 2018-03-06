@@ -1,0 +1,18 @@
+package pattern1;
+
+public class pattern {
+public static void main(String[] args) {
+	int num=5,j;
+	while(num>0) {
+		j=1;
+		while(j<=num) {
+	
+		System.out.print("1");
+		j++;
+		}
+		num--;
+		System.out.println("");
+	      }
+}
+
+}

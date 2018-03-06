@@ -1,0 +1,21 @@
+package palindrome;
+
+public class palindrom
+{
+	public static void main(String[] args)
+	{
+	      int num=779,u,m,f,rev;
+	          u=(num%10)*100;
+	          m=((num%100)/10)*10;
+	          f=(num/100);
+          rev=u+m+f;
+        if(num==rev)
+             {
+        	System.out.print("number is palindrom");
+             }
+        else {
+              System.out.print("number is not palindrom");
+              }
+	}
+  
+}
