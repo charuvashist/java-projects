@@ -1,0 +1,20 @@
+package prime_number;
+
+public class prime 
+{
+ public static void main(String[] args) 
+   {
+  int i,b=0,c=31;
+  for(i=2;i<c;i++) {
+	if(c%i==0)
+		b++;
+  }
+	  if(b>=1) {
+	  System.out.print("number is not prime");
+	  }
+	  else {
+		  System.out.print("number is prime");
+	  }
+  
+}
+}
